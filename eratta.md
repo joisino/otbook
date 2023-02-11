@@ -6,8 +6,10 @@
 |  p.54 | 下から 7 行目  | $\boldsymbol{g}_i$ | $\boldsymbol{g}_j$ | |
 |  p.83 | 式 (2.147) の直前  | 変数 | 辺数 | |
 |  p.104 | 3.4 節 3 行目  | 無限解の反復の後 | 無限回の反復の後 | |
-|  p.107, p.108 | 式 (3.53), (3.55)  | $\frac{1}{2} (\lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + \lVert \boldsymbol{A} \rVert_1 - m)$ | $\frac{1}{2} (\lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + \lVert \boldsymbol{A} \rVert_1 - 1)$ | |
-|  p.108 | 式 (3.55) (c) の次の行  | $+ 1 - m$ | $+ 1 - 1$ | |
+|  p.107 | 式 (3.53)  | $\sum_i \sum_j (\boldsymbol{A}_{ij} - \boldsymbol{a}_i)$ | $\sum_i \sum_j \boldsymbol{A}_{ij} - \boldsymbol{a}_i$ | |
+|  p.107, p.108 | 式 (3.53), (3.55)  | $(\lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + \lVert \boldsymbol{A} \rVert_1 - m)$ | $(\lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + \lVert \boldsymbol{A} \rVert_1 - 1)$ | |
+|  p.108 | 式 (3.55) (c) の次の等号 | $= \lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + 2\lVert\boldsymbol{A}^\top 1_n - \boldsymbol{b}\rVert_1 + 1 - m$ | トル | |
+|  p.108 | 式 (3.55) (c) の次の等号の次の不等号 | $\le \lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + 2\lVert\boldsymbol{A}^\top 1_n - \boldsymbol{b}\rVert_1$ | $= \lVert\boldsymbol{A} 1_m - \boldsymbol{a}\rVert_1 + 2\lVert\boldsymbol{A}^\top 1_n - \boldsymbol{b}\rVert_1$ | |
 |  p.115, p.116 | 定理 3.11 および証明中 | $\boldsymbol{u}^{(0)}, \boldsymbol{u}^*$ | $\boldsymbol{v}^{(0)}, \boldsymbol{v}^*$ | |
 |  p.125| 式 (3.110) | $\hat{\boldsymbol{P}}^*$ | $\boldsymbol{P}^*$ | |
 |  p.145 | アルゴリズム 3.7 の 9 行目  | $\text{Diag}(\boldsymbol{u}) \boldsymbol{K} \text{Diag}(\boldsymbol{v})$ | $\text{Diag}(\boldsymbol{u}) \boldsymbol{L}^{(k)} \text{Diag}(\boldsymbol{v})$ | |
