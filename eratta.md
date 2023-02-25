@@ -4,6 +4,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  p.38 | 証明中 (c) の説明  | $\boldsymbol{Q}^* \in \mathcal{U}(\boldsymbol{a}, \boldsymbol{b})$ | $\boldsymbol{Q}^* \in \mathcal{U}(\boldsymbol{b}, \boldsymbol{c})$ | | |
 |  p.54 | 下から 7 行目  | $\boldsymbol{g}_i$ | $\boldsymbol{g}_j$ | | |
+|  p.58 | 下から 3 行目  | 弱双対性 | 強双対性 | | |
 |  p.83 | 式 (2.147) の直前  | 変数 | 辺数 | | |
 |  p.104 | 3.4 節 3 行目  | 無限解の反復の後 | 無限回の反復の後 | | |
 |  p.107 | 式 (3.53)  | $\sum_i \sum_j (\boldsymbol{A}_{ij} - \boldsymbol{a}_i)$ | $\sum_i \sum_j \boldsymbol{A}_{ij} - \boldsymbol{a}_i$ | | |
