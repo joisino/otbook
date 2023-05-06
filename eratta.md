@@ -6,6 +6,8 @@
 |  p.38 | 証明中 (c) の説明  | $\boldsymbol{Q}^* \in \mathcal{U}(\boldsymbol{a}, \boldsymbol{b})$ | $\boldsymbol{Q}^* \in \mathcal{U}(\boldsymbol{b}, \boldsymbol{c})$ | | 3 刷で修正 |
 |  p.54 | 下から 13 行目  | $\boldsymbol{g}_i$ | $\boldsymbol{g}_j$ | | 4 刷で修正 |
 |  p.54 | 下から 7 行目  | $\boldsymbol{g}_i$ | $\boldsymbol{g}_j$ | | 3 刷で修正 |
+|  p.73 | 定理 2.19 の証明中 2 行目  | 二重対角行列 | 二重確率行列 | |  |
+|  p.74 | 定理 2.19 の証明中下から 3 行目  | 二重対角行列 | 二重確率行列 | |  |
 |  p.83 | 式 (2.147) の直前  | 変数 | 辺数 | | 3 刷で修正 |
 |  p.104 | 3.4 節 3 行目  | 無限解の反復の後 | 無限回の反復の後 | | 3 刷で修正 |
 |  p.104 | 3.4 節 4 行目  | 有限解で打ち止め | 有限回で打ち止め | | 4 刷で修正 |
@@ -24,6 +26,7 @@
 |  p.179 | アルゴリズム 5.1　の 3 行目 | $i < n$ または $j < m$ | $i \le n$ または $j \le m$ | | 3 刷で修正 |
 |  p.185 | 下から 3 行目 | $C(x, y) = (x - y)^p$ | $C(x, y) = \|x - y\|^p$ | | 3 刷で修正 |
 |  p.193 | 下から 4 行目 | $\nabla_{\theta} W_p(f_{\theta \sharp} \alpha, f_{\theta \sharp} \alpha)$ | $\nabla_{\theta} W_p(f_{\theta \sharp} \alpha, f_{\theta \sharp} \beta)$ | | 3 刷で修正 |
+|  p.200 | 最終行 | 特に，直接接続されている先祖を親，直接接続されている子孫を子といいます． | 特に，直接接続されている先祖を親，直接接続されている子孫を子といいます．頂点 $v$ の親を $p(v)$ と表記します． | |  |
 |  p.248 | 定理 6.27 下から 2 行目 | $\\\{x_1, \ldots, x_n \\\{y_1, \ldots, y_n\\\}$ | $\\\{x_1, \ldots, x_n\\\}, \\\{y_1, \ldots, y_n\\\}$ | | 3 刷で修正 |
 |  p.262 | アルゴリズム 7.1　の入力 | 確率ベクトル $\boldsymbol{a} \in \Sigma_n, \boldsymbol{b} \in \Sigma_m$ | 非負ベクトル $\boldsymbol{a} \in \mathbb{R}^n_{\ge 0}, \boldsymbol{b} \in \mathbb{R}^m_{\ge 0}$ | | 3 刷で修正 |
 |  p.266 | 例 8.1 | $W_p^p(\delta_x, \delta_y)$ | $W_p(\delta_x, \delta_y)^p$ | | 3 刷で修正 |
