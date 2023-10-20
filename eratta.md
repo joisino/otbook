@@ -19,6 +19,7 @@
 |  p.125 | 式 (3.110) | $\hat{\boldsymbol{P}}^*$ | $\boldsymbol{P}^*$ | | 3 刷で修正 |
 |  p.127 | 証明後 3 行目 | また，この狭義凸性は定理 3.22 でシンクホーンダイバージェンスの公理を証明する際にも用いられます．| トル | 定理 3.22 の証明で用いるのはこの形ではなく、この表現は誤りでした。 | 3 刷で修正 |
 |  p.140| 図 3.7 の軸ラベル | $x, y$ | $y, x$ | $x$ と $y$ の位置が逆 | 3 刷で修正 |
+|  p.141, 142 | 定理 3.22 の証明 | $\boldsymbol{u} \propto \boldsymbol{K}_{:, 1} / \boldsymbol{P}^*_{:, 1}$, $\boldsymbol{v} \propto \boldsymbol{K}_{1, :} / \boldsymbol{P}^*_{1, :}$ | $\boldsymbol{u} \propto \boldsymbol{P}^*_{:, 1} / \boldsymbol{K}_{:, 1}$, $\boldsymbol{v} \propto \boldsymbol{P}^*_{1, :} / \boldsymbol{K}_{1, :}$ |  |
 |  p.141, 142 | 定理 3.22 の証明 | $\phi(\boldsymbol{a}) \stackrel{\text{def}}{=} - \frac{1}{2}\text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C})$ | $\phi(\boldsymbol{a}) \stackrel{\text{def}}{=} - \frac{1}{2}\text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C}) - \varepsilon H(\boldsymbol{a})$ | ※1 | 3 刷で修正 |
 |  p.145 | アルゴリズム 3.7 の 9 行目  | $\text{Diag}(\boldsymbol{u}) \boldsymbol{K} \text{Diag}(\boldsymbol{v})$ | $\text{Diag}(\boldsymbol{u}) \boldsymbol{L}^{(k)} \text{Diag}(\boldsymbol{v})$ | | 3 刷で修正 |
 |  p.156 | 式 (4.16) の直後  | $\lVert f(\boldsymbol{x})\rVert_* \le 1$ | $\lVert \nabla f(\boldsymbol{x})\rVert_* \le 1$ | | 3 刷で修正 |
