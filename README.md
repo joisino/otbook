@@ -37,4 +37,4 @@
 
 # 正誤表
 
-本書の正誤情報は[正誤表](https://github.com/joisino/otbook/blob/main/eratta.md)にて公開しています。
+本書の正誤情報は[正誤表](https://github.com/joisino/otbook/blob/main/errata.md)にて公開しています。
