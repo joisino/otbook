@@ -29,6 +29,7 @@
 |  p.193 | 下から 4 行目 | $\nabla_{\theta} W_p(f_{\theta \sharp} \alpha, f_{\theta \sharp} \alpha)$ | $\nabla_{\theta} W_p(f_{\theta \sharp} \alpha, f_{\theta \sharp} \beta)$ | | 3 刷で修正 |
 |  p.200 | 最終行 | 特に，直接接続されている先祖を親，直接接続されている子孫を子といいます． | 特に，直接接続されている先祖を親，直接接続されている子孫を子といいます．頂点 $v$ の親を $p(v)$ と表記します． | |  |
 |  p.229 | 式 (6.49) | ※2 | ※3  | |  |
+|  p.233 | 表 6.1 全変動距離の sup の範囲| $\\\|f\\\|_1 \le 1$ | $\\\|f\\\|_\infty \le 1$ | |  |
 |  p.248 | 定理 6.27 下から 2 行目 | $\\\{x_1, \ldots, x_n \\\{y_1, \ldots, y_n\\\}$ | $\\\{x_1, \ldots, x_n\\\}, \\\{y_1, \ldots, y_n\\\}$ | | 3 刷で修正 |
 |  p.262 | アルゴリズム 7.1　の入力 | 確率ベクトル $\boldsymbol{a} \in \Sigma_n, \boldsymbol{b} \in \Sigma_m$ | 非負ベクトル $\boldsymbol{a} \in \mathbb{R}^n_{\ge 0}, \boldsymbol{b} \in \mathbb{R}^m_{\ge 0}$ | | 3 刷で修正 |
 |  p.266 | 例 8.1 | $W_p^p(\delta_x, \delta_y)$ | $W_p(\delta_x, \delta_y)^p$ | | 3 刷で修正 |
