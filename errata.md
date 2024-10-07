@@ -19,7 +19,7 @@
 |  p.125 | 式 (3.110) | $\hat{\boldsymbol{P}}^*$ | $\boldsymbol{P}^*$ | | 3 刷で修正 |
 |  p.127 | 証明後 3 行目 | また，この狭義凸性は定理 3.22 でシンクホーンダイバージェンスの公理を証明する際にも用いられます．| トル | 定理 3.22 の証明で用いるのはこの形ではなく、この表現は誤りでした。 | 3 刷で修正 |
 |  p.140| 図 3.7 の軸ラベル | $x, y$ | $y, x$ | $x$ と $y$ の位置が逆 | 3 刷で修正 |
-|  p.141, 142 | 定理 3.22 の証明 | $\boldsymbol{u} \propto \boldsymbol{K}_{:, 1} / \boldsymbol{P}^*_{:, 1}$, $\boldsymbol{v} \propto \boldsymbol{K}_{1, :} / \boldsymbol{P}^*_{1, :}$ | $\boldsymbol{u} \propto \boldsymbol{P}^*_{:, 1} / \boldsymbol{K}_{:, 1}$, $\boldsymbol{v} \propto \boldsymbol{P}^*_{1, :} / \boldsymbol{K}_{1, :}$ |  |
+|  p.141, 142 | 定理 3.22 の証明 | $\boldsymbol{u} \propto \boldsymbol{K}\_{:, 1} / \boldsymbol{P}^\*\_{:, 1}$, $\boldsymbol{v} \propto \boldsymbol{K}\_{1, :} / \boldsymbol{P}^\*\_{1, :}$ | $\boldsymbol{u} \propto \boldsymbol{P}^\*\_{:, 1} / \boldsymbol{K}\_{:, 1}$, $\boldsymbol{v} \propto \boldsymbol{P}^\*\_{1, :} / \boldsymbol{K}\_{1, :}$ |  |
 |  p.141, 142 | 定理 3.22 の証明 | $\phi(\boldsymbol{a}) \stackrel{\text{def}}{=} - \frac{1}{2}\text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C})$ | $\phi(\boldsymbol{a}) \stackrel{\text{def}}{=} - \frac{1}{2}\text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C}) - \varepsilon H(\boldsymbol{a})$ | ※1 | 3 刷で修正 |
 |  p.145 | アルゴリズム 3.7 の 9 行目  | $\text{Diag}(\boldsymbol{u}) \boldsymbol{K} \text{Diag}(\boldsymbol{v})$ | $\text{Diag}(\boldsymbol{u}) \boldsymbol{L}^{(k)} \text{Diag}(\boldsymbol{v})$ | | 3 刷で修正 |
 |  p.156 | 式 (4.16) の直後  | $\lVert f(\boldsymbol{x})\rVert_* \le 1$ | $\lVert \nabla f(\boldsymbol{x})\rVert_* \le 1$ | | 3 刷で修正 |
@@ -28,6 +28,7 @@
 |  p.185 | 下から 3 行目 | $C(x, y) = (x - y)^p$ | $C(x, y) = \|x - y\|^p$ | | 3 刷で修正 |
 |  p.193 | 下から 4 行目 | $\nabla_{\theta} W_p(f_{\theta \sharp} \alpha, f_{\theta \sharp} \alpha)$ | $\nabla_{\theta} W_p(f_{\theta \sharp} \alpha, f_{\theta \sharp} \beta)$ | | 3 刷で修正 |
 |  p.200 | 最終行 | 特に，直接接続されている先祖を親，直接接続されている子孫を子といいます． | 特に，直接接続されている先祖を親，直接接続されている子孫を子といいます．頂点 $v$ の親を $p(v)$ と表記します． | |  |
+|  p.229 | 式 (6.49) | ※2 | ※3  | |  |
 |  p.248 | 定理 6.27 下から 2 行目 | $\\\{x_1, \ldots, x_n \\\{y_1, \ldots, y_n\\\}$ | $\\\{x_1, \ldots, x_n\\\}, \\\{y_1, \ldots, y_n\\\}$ | | 3 刷で修正 |
 |  p.262 | アルゴリズム 7.1　の入力 | 確率ベクトル $\boldsymbol{a} \in \Sigma_n, \boldsymbol{b} \in \Sigma_m$ | 非負ベクトル $\boldsymbol{a} \in \mathbb{R}^n_{\ge 0}, \boldsymbol{b} \in \mathbb{R}^m_{\ge 0}$ | | 3 刷で修正 |
 |  p.266 | 例 8.1 | $W_p^p(\delta_x, \delta_y)$ | $W_p(\delta_x, \delta_y)^p$ | | 3 刷で修正 |
@@ -35,3 +36,13 @@
 |  p.293 | 式 (9.25), (9.26) | $\mathcal{U}(\alpha, \beta)$ | $\mathcal{U}(\boldsymbol{a}, \boldsymbol{b})$ | | 3 刷で修正 |
 
 ※1 定理 3.22 の証明で用いるべき $\phi$ の定義が誤りでした。また、定理 3.22 の証明中の議論も併せて変更する必要があります。具体的には、 $\phi$ の凸性の証明は定理 3.17 ではなく、Feydy [29, Proposition 4] によります。また、 $\nabla\_{\boldsymbol{a}} \phi(\boldsymbol{a}) = - \nabla\_1 \text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C}) - \varepsilon \nabla\_{\boldsymbol{a}} H(\boldsymbol{a})$ となります。式 (3.142) とその直前の議論においては、勾配を取る対象は $\text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{C})$ ではなく $\text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{C}) + \varepsilon H(\boldsymbol{a})$ となります。これが $\boldsymbol{a}$ について凸であることは Feydy [29] より従います。式 (3.143) においては、両辺から引くのは $\frac{1}{2} \text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C}) + \frac{1}{2} \text{OT}\_{\varepsilon}(\boldsymbol{b}, \boldsymbol{b}, \boldsymbol{C})$ ではなく、 $\frac{1}{2} \text{OT}\_{\varepsilon}(\boldsymbol{a}, \boldsymbol{a}, \boldsymbol{C}) + \frac{1}{2} \text{OT}\_{\varepsilon}(\boldsymbol{b}, \boldsymbol{b}, \boldsymbol{C}) + \varepsilon H(\boldsymbol{a})$ となります。
+
+※2
+
+$$
+\phi^*(x) = \begin{cases} x & (-1 \le x \le 1) \\\ -1 & (x < -1) \\\ \infty & (x > 1)\end{cases}
+$$
+
+※3
+
+$$\phi^*(x) = \begin{cases} x & (-1 \le x \le 1) \\\ \infty & (\|x\| > 1)\end{cases}$$
